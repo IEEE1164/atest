@@ -1,0 +1,5 @@
+[core]
+	sshCommand = 'C:\\Windows\\System32\\OpenSSH\\ssh.exe'
+[user]
+	email = lars.altmann@gmail.com
+	name = Lars Altmann

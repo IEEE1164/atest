@@ -1,0 +1,7 @@
+# Comment
+*.pem
+*.pfx
+*.pub
+*.pri
+.ssh/
+!/.gitignore
