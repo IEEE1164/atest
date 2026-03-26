@@ -26,4 +26,3 @@ git config user.name "Lars Altmann"
 git config user.email "lars.altmann@gmail.com"
 git config user.email
 ```
-
