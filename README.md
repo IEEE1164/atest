@@ -17,11 +17,11 @@ git init
 git status
 # 5.
 git add .
-# 6. User wide configuration
+# 6. User wide configuration (--global)
 git config --global user.name "Lars Altmann"
 git config --global user.email "lars.altmann@gmail.com"
 git config --global user.email
-# 7. Repository wide configuration
+# 7. Repository wide configuration (--local)
 git config user.name "Lars Altmann"
 git config user.email "lars.altmann@gmail.com"
 git config user.email
