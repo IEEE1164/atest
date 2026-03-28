@@ -5,6 +5,7 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+# Bash
 
 ```bash
 # 1.
@@ -25,4 +26,12 @@ git config --global user.email
 git config user.name "Lars Altmann"
 git config user.email "lars.altmann@gmail.com"
 git config user.email
+#. 8 Show the commit history of current branch
+git log
+#. 9 Show type of a hash
+git cat-file -t fa0fd813...
+#. 10 Show contents of a hash
+git cat-file -p fa0fd813...
+#. 11 show tree contents (tree hash)
+git cat-file -p 79f41ede...
 ```
