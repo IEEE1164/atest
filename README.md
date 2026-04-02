@@ -1,12 +1,5 @@
 # Heading
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-# Bash
-
 ```bash
 # 1.
 git --version
