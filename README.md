@@ -16,8 +16,12 @@ git status
 git init
 # 4. 
 git status
-# 5.
+# 5. Add files to staging status
 git add .
+# 55. Unstage particular file.
+git rm --cached <file>
+# 555. Commit to local repository
+git commit -m "message"
 # 6. User wide configuration (--global)
 git config --global user.name "Lars Altmann"
 git config --global user.email "lars.altmann@gmail.com"
