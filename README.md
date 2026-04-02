@@ -32,6 +32,8 @@ git config user.email "lars.altmann@gmail.com"
 git config user.email
 #. 8 Show the commit history of current branch
 git log
+#. 88 Show compressed log history
+git log --oneline
 #. 9 Show type of a hash
 git cat-file -t fa0fd813...
 #. 10 Show contents of a hash
